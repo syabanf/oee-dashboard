@@ -12,7 +12,7 @@ pnpm dev:admin   # http://localhost:5183
 Or in Docker, with nothing installed but Docker:
 
 ```bash
-docker compose up -d --build   # http://localhost:8080
+docker compose up -d --build   # http://localhost:8180
 ```
 
 `ADMIN_PORT=9090 docker compose up -d --build` picks another host port. The image is nginx serving the built app; there is no server-side state.
