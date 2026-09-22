@@ -1,0 +1,9 @@
+# Everything a build should never carry: local installs, build output, git history and notes.
+**/node_modules
+**/dist
+**/.turbo
+.git
+.claude
+docs
+*.md
+**/.env

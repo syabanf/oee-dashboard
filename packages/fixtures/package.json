@@ -1,0 +1,20 @@
+{
+  "name": "@oee/fixtures",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@oee/types": "workspace:*",
+    "@oee/integration": "workspace:*"
+  },
+  "devDependencies": {
+    "@oee/tsconfig": "workspace:*",
+    "typescript": "^5.6.3"
+  }
+}

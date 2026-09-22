@@ -1,0 +1,1 @@
+{ "extends": "@oee/tsconfig/vite-react.json", "compilerOptions": { "resolveJsonModule": true }, "include": ["src", "vite.config.ts"] }

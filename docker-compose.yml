@@ -1,0 +1,12 @@
+# The demo in a container. Everything runs in the browser, so one static image is the whole system.
+#
+#   docker compose up -d --build     build and serve on http://localhost:8080
+#   docker compose down              stop
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: docker/web.Dockerfile
+    image: oee-andon-admin
+    restart: unless-stopped
+    ports: ['${ADMIN_PORT:-8080}:8080']

@@ -1,0 +1,1 @@
+{ "extends": "@oee/tsconfig/base.json", "compilerOptions": { "resolveJsonModule": true }, "include": ["src"] }
